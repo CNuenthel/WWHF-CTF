@@ -24,7 +24,13 @@ class Flag:
 
     def submit(self):
         if self.key is None:
-            pass
+            print(f"[#] Attempted to submit flag with an unset key.")
+            return False
         else:
             result = api.submit_flag(self.key)
-            if not result: print(f"[!] Flag submission failed for flag {self.key}.")
+            if not result:
+                print(f"[!] Flag submission failed for flag {self.key}.")
+                return False
+            else:
+                print(f"[$] Flag submission succeeded for flag {self.key}.")
+                return True
