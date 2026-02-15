@@ -1,0 +1,272 @@
+[
+  {
+    "team_id": 1,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8001"
+  },
+  {
+    "team_id": 2,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8002"
+  },
+  {
+    "team_id": 3,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8003"
+  },
+  {
+    "team_id": 4,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8004"
+  },
+  {
+    "team_id": 5,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8005"
+  },
+  {
+    "team_id": 6,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8006"
+  },
+  {
+    "team_id": 7,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8007"
+  },
+  {
+    "team_id": 8,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8008"
+  },
+  {
+    "team_id": 9,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8009"
+  },
+  {
+    "team_id": 10,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8010"
+  },
+  {
+    "team_id": 11,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8011"
+  },
+  {
+    "team_id": 12,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8012"
+  },
+  {
+    "team_id": 13,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8013"
+  },
+  {
+    "team_id": 14,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8014"
+  },
+  {
+    "team_id": 15,
+    "service_id": 1,
+    "service_name": "Contractual",
+    "hostname": "service1.ad.mctf.io:8015"
+  },
+  {
+    "team_id": 1,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8001"
+  },
+  {
+    "team_id": 2,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8002"
+  },
+  {
+    "team_id": 3,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8003"
+  },
+  {
+    "team_id": 4,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8004"
+  },
+  {
+    "team_id": 5,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8005"
+  },
+  {
+    "team_id": 6,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8006"
+  },
+  {
+    "team_id": 7,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8007"
+  },
+  {
+    "team_id": 8,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8008"
+  },
+  {
+    "team_id": 9,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8009"
+  },
+  {
+    "team_id": 10,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8010"
+  },
+  {
+    "team_id": 11,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8011"
+  },
+  {
+    "team_id": 12,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8012"
+  },
+  {
+    "team_id": 13,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8013"
+  },
+  {
+    "team_id": 14,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8014"
+  },
+  {
+    "team_id": 15,
+    "service_id": 2,
+    "service_name": "Mainframe",
+    "hostname": "service2.ad.mctf.io:8015"
+  },
+  {
+    "team_id": 1,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8001"
+  },
+  {
+    "team_id": 2,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8002"
+  },
+  {
+    "team_id": 3,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8003"
+  },
+  {
+    "team_id": 4,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8004"
+  },
+  {
+    "team_id": 5,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8005"
+  },
+  {
+    "team_id": 6,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8006"
+  },
+  {
+    "team_id": 7,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8007"
+  },
+  {
+    "team_id": 8,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8008"
+  },
+  {
+    "team_id": 9,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8009"
+  },
+  {
+    "team_id": 10,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8010"
+  },
+  {
+    "team_id": 11,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8011"
+  },
+  {
+    "team_id": 12,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8012"
+  },
+  {
+    "team_id": 13,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8013"
+  },
+  {
+    "team_id": 14,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8014"
+  },
+  {
+    "team_id": 15,
+    "service_id": 3,
+    "service_name": "Brightside",
+    "hostname": "service3.ad.mctf.io:8015"
+  }
+]

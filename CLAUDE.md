@@ -50,7 +50,13 @@ These run infinite loops with 5-second polling intervals: pull flags -> exploit 
 - Python 3.13, type hints use `X | None` union syntax
 - Global state pattern in exploit scripts (not thread-safe)
 
-## Known Issues
+## API Endpoints
 
-- `Flag` class has no `is_expired()` method but `exploit_svc_*.py` calls it
-- `pull_flag_ids()` in `api.py` hits the `/endpoints` URL (same as `pull_machines()`) rather than a flags-specific endpoint
+Docs: `https://api.ad.mctf.io/docs#/` — All authenticated endpoints require `team-token` header.
+
+- `GET /endpoints` - team service endpoints
+- `GET /live_flags` - active flags (fields: `flag_identifier`, `team_id`, `service_id`, `tick`, `expiration`, `hostname`)
+- `POST /submit` - submit a flag (form field: `flag_in`)
+- `GET /submissions` - team's submission history
+- `GET /status` - current tick and service availability
+- `GET /heartbeat` - health check (no auth)

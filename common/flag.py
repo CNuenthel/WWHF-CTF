@@ -1,12 +1,11 @@
 import api
-import datetime
 
 class MissingFlagException(Exception):
     pass
 
 class Flag:
-    def __init__(self, fid: str, team_id: str, service_id: str, tick: str, expiration: datetime.datetime, hostname: str):
-        self.id = fid
+    def __init__(self, fid: str, team_id: int, service_id: int, tick: int, expiration: int, hostname: str):
+        self.fid = fid
         self.team_id = team_id
         self.service_id = service_id
         self.tick = tick
@@ -14,10 +13,11 @@ class Flag:
         self.hostname = hostname
         self.key = None
 
-    def is_expired(self):
-        if self.expiration > datetime.datetime.now():
-            return True
-        return False
+    def __str__(self):
+        return f"FID: {self.fid}, HOSTNAME: {self.hostname}"
+
+    def __repr__(self):
+        return f"FID: {self.fid}, HOSTNAME: {self.hostname}"
 
     def set_key(self, key: str):
         self.key = key
